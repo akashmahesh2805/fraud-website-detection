@@ -10,7 +10,30 @@
 
 ## 📂 Project Structure  
 
-fraud-website-detection/ │── backend/ # Backend API & AI Models │ ├── app.py # Flask API for AI Model │ ├── model/ # Folder for trained AI models │ │ ├── scam_text_model.pth # Trained NLP model (BERT) │ │ ├── scam_ui_model.h5 # Trained CNN model (Website Layout) │ ├── preprocess.py # Data Preprocessing Script │ ├── train_text_model.py # Train NLP Scam Detector │ ├── train_ui_model.py # Train CNN Scam Detector │ ├── requirements.txt # Dependencies for backend │── extension/ # Chrome Extension │ ├── manifest.json # Chrome Extension Configuration │ ├── background.js # Runs in the background (handles requests) │ ├── content.js # Extracts website data │ ├── popup.html # User Interface for the extension │ ├── popup.js # Handles UI interactions │ ├── styles.css # Styles for the popup │── dataset/ # Raw & Processed Data │ ├── raw_data/ # Raw website text, screenshots, metadata │ ├── processed_data.csv # Preprocessed data ready for AI training │── deployment/ # Deployment & Optimization │ ├── deploy_api.py # Deploys the Flask API to cloud │ ├── optimize_model.py # Converts AI model to ONNX for faster inference │── README.md # Project Documentation
+fraud-website-detection/<br/>
+ │── backend/                  # Backend API & AI Models<br/>
+ │   ├── app.py                # Flask API for AI Model<br/>
+ │   ├── model/                # Folder for trained AI models<br/>
+ │   │   ├── scam_text_model.pth   # Trained NLP model (BERT)<br/>
+ │   │   ├── scam_ui_model.h5      # Trained CNN model (Website Layout)<br/>
+ │   ├── preprocess.py         # Data Preprocessing Script<br/>
+ │   ├── train_text_model.py   # Train NLP Scam Detector<br/>
+ │   ├── train_ui_model.py     # Train CNN Scam Detector<br/>
+ │   ├── requirements.txt      # Dependencies for backend<br/>
+ │── extension/                # Chrome Extension<br/>
+ │   ├── manifest.json         # Chrome Extension Configuration<br/>
+ │   ├── background.js         # Runs in the background (handles requests)<br/>
+ │   ├── content.js            # Extracts website data<br/>
+ │   ├── popup.html            # User Interface for the extension<br/>
+ │   ├── popup.js              # Handles UI interactions<br/>
+ │   ├── styles.css            # Styles for the popup<br/>
+ │── dataset/                  # Raw & Processed Data<br/>
+ │   ├── raw_data/             # Raw website text, screenshots, metadata<br/>
+ │   ├── processed_data.csv    # Preprocessed data ready for AI training<br/>
+ │── deployment/               # Deployment & Optimization<br/>
+ │   ├── deploy_api.py         # Deploys the Flask API to cloud<br/>
+ │   ├── optimize_model.py     # Converts AI model to ONNX for faster inference<br/>
+ │── README.md                 # Project Documentation<br/>
 
 
 
